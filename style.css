@@ -1,0 +1,263 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+
+    font-family: 'Barlow', sans-serif;
+    font-weight: 400;
+    scroll-behavior: smooth;
+}
+section{
+    scroll-margin: 50px;
+}
+.nav{
+    max-width: 1200px;
+    margin:0 auto ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+
+}
+header{
+        background-color:green;
+        position: sticky;
+        top: 0;
+        z-index: 100;
+        box-shadow: 2px 2px 5px  rgba(0, 0, 0, 1);
+}
+.nav ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color:black;
+    cursor: pointer;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+.logo{
+    font-size: 32px;
+    text-transform:capitalize;
+    padding: 20px 0;
+    font-weight: 800;
+    color: black;
+}
+
+.nav ul{
+    display: flex;
+    gap: 15px;
+}
+.nav ul li{
+    border-bottom: 2px solid transparent;
+    padding-bottom: 3px;
+    transition: 0.2s ease-in-out;
+}
+.nav ul li:hover{
+    border-bottom: 2px solid wheat;
+   padding-bottom:0 8px ;
+}
+
+.hero{
+    background-image:url(image/main.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    place-items: center;
+    color: aliceblue;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.hero h1{
+    text-transform: capitalize;
+    font-size: 96px;
+    font-weight: 900;
+    
+}
+.hero h3{
+    text-transform: capitalize;
+    font-size: 35px;
+    font-weight: 600;
+}
+.hero p{
+    font-size: 18px;
+}
+.music{
+    padding: 50px;
+    background-color:black;
+    color: aliceblue;
+}
+.music .container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center; 
+    margin-top: 50px;
+
+}
+span{
+    font-size: 50px;
+}
+.music .container h2{
+    font-size: 30px;
+}
+
+.music .container h4{
+    text-align: center;
+}
+.moblie img{
+    position: relative;
+    top: 400px;
+    margin-top: -300px;
+}
+
+button{
+    padding: 10px 15px;
+    border: none;
+    transition: .7s ease-in-out;
+    cursor: pointer;
+    opacity: 0.3s;
+    transform: translate(0.5s ease-in-out);
+   
+}
+
+button:hover{
+    opacity: 0.6s;
+    transition: 0.8s ease-in-out;
+    transform: translate(1ms ease-in-out);
+   
+}
+
+.btn{
+    background-color: red;
+    color: aliceblue;
+}
+
+.btn1{
+    background-color: blueviolet;
+    color: aliceblue;
+}
+
+.about{
+   padding-top: 400px;
+   display: grid;
+   place-items: center;
+   gap: 50px;
+   text-align: center;
+}
+.about h3{
+    text-transform: capitalize;
+    font-size: 25px;
+}
+.about p{
+    text-align: center;
+    padding: 0 50px ;
+}
+
+.video{
+    background-image: url(image/im.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    place-items: center;
+    min-height: 800px;
+    color:black;
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+.video .container{
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    gap: 30px;
+    margin-top: -200px;
+    padding: 0 90px;
+    text-transform: capitalize;
+    color:white;
+}
+
+.video .container h3{
+    font-size: 30px;
+
+}
+
+.gift{
+    display: flex;
+    justify-content: center;
+    margin: 100px 210px;
+    gap:50px;
+    scroll-margin: 150px;
+    
+}
+.giftcar img{
+    width: 500px;
+    height:300px;
+}
+
+.gifttxt{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 45px;
+}
+
+.btn2{
+    width: 90px;
+    height: 35px;
+    color: aliceblue;
+    background-color: purple;
+    margin-left: 40%;
+    transition:0.4s ease-in-out;
+    border: none;
+    outline: none;
+}
+.btn2:hover {
+    transition: 0.8s ease-in-out; 
+    
+
+}
+
+.up-footer{
+    background-color: black;
+    color: white;
+    padding: 40px;
+}
+
+.up-footer .container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+.f_link ul{
+    list-style-type: none;
+}
+.f_link h3{
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    
+}
+.lower{
+    padding: 20px;
+    text-align: center;
+
+}
